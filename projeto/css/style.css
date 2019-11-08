@@ -1,0 +1,518 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background:url('../img/arabia3.jpg') no-repeat fixed 0 -70px ;
+  background-size:cover;
+  max-width: 100%;
+  
+}
+
+
+/* Global */
+.container{
+  max-width: 100%;
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  
+}
+
+ul{
+  max-width: 100%;
+  margin:0;
+  padding:0;
+}
+
+form
+{
+  max-width: 100%;
+  position: relative;
+  left: 50px;
+  top: 250px;
+  font-size: 20px;
+} 
+
+
+.dark{
+  max-width: 100%;
+  position: absolute;
+  top: -300px;
+  left: 41px;
+  padding:15px;
+  background: linear-gradient(#ffee00cc, rgb(1, 139, 1,.6) );
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.dark h3{
+  max-width: 100%;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 27px;
+}
+.dark p{
+  max-width: 100%;
+  font-size: 20px;
+}
+.darks{
+  max-width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  padding:50px;
+  background:linear-gradient(rgb(157, 255, 0,.8), rgb(1, 92, 1, .6));
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.darks h1{
+  max-width: 100%;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+}
+.darks form{
+  max-width: 100%;
+  position: relative;
+  left: 5px;
+  top: 15px;
+}
+.darkx{
+  max-width: 100%;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  padding:50px;
+  background:linear-gradient(rgb(157, 255, 0,.8), rgb(1, 92, 1, .6));
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.darkxx{
+  max-width: 100%;
+  position: absolute;
+  top: 19px;
+  right: 150px;
+  padding:50px;
+  background:linear-gradient(rgb(157, 255, 0,.8), rgb(1, 92, 1, .6));
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+/* Header **/
+header{
+  max-width: 100%;
+  background:url('../img/arabia2.jpg') no-repeat 0 -70px ;
+  background-size:cover;
+  padding-top:10px;
+  max-width: 100%;
+  min-height:70px;
+  height:40px;
+  border-bottom:#009e00 3px solid;
+  
+}
+header .current a{
+  max-width: 100%;
+  text-align: center;
+  color:#037409;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+header a{
+  max-width: 100%;
+  position: relative;
+  top: -35px;
+  color:#000000;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+header li{
+  max-width: 100%;
+  float:left;
+  display:inline-flex;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  line-height: 10px;
+  font-size:20px;
+  color: #009e00;
+}
+
+header #branding{
+  max-width: 100%;
+  float:left;
+  text-align: center;
+
+}
+
+header #branding h1{
+  max-width: 100%;
+  text-align: center;
+  margin:0;
+}
+
+header #logo img{
+  max-width: 100%;
+  text-align: center;
+  width: 80px;
+}
+
+header nav{
+  max-width: 100%;
+  float: right;
+  height: 40px;
+  text-align: center;
+
+}
+
+header .highlight{
+  max-width: 100%;
+  font-family:'Lobster', cursive ;
+  color:#000000;
+  font-weight:bold;
+  font-size: 45px;
+}
+
+header .current a{
+  max-width: 100%;
+  color :#009e00;
+  font-weight:bold;
+
+}
+header .current a:hover{
+  max-width: 100%;
+  text-decoration-line: underline;
+  font-style:oblique;
+  font-weight:bold;
+
+}
+header a{
+  max-width: 100%;
+  font-weight:bold;
+  
+}
+header a:hover{
+  max-width: 100%;
+  color:gold;
+  font-weight:bold;
+  -webkit-transition: width 1s; 
+  transition: 1s;
+  text-decoration-line: underline;
+  font-style:oblique;
+}
+
+section .mapouter{
+  max-width: 100%;
+  position: absolute;
+  top: 202px;
+  right: 50px;
+  
+}
+
+section .hiper{
+  max-width: 300px;
+  position: relative;
+  top: 600px;
+  left: 50px;
+}
+form{
+  max-width: 300px;
+  position: relative;
+  top: 50px;
+}
+section .submeter{
+  max-width: 100%;  
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+
+.contain{
+  max-width: 100%;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 500px;
+  height: 530px;
+ 
+  margin: 70px auto 0;
+}
+.contain .boxx{
+  max-width: 100%;
+  position: relative;
+  top: 15px;
+  width: 200px;
+  height: 200px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wraps;
+
+}
+.contain .boxx2{
+  max-width: 100%;
+  position: relative;
+  right: 0px;
+  top: 170px;
+  width: 150px;
+  height: 150px;
+  background: #000000;
+  margin: -400px -100px 90px 300px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wraps; 
+
+}
+.contain .boxx .imgBox{
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.contain .boxx .imgBox img{
+  max-width: 100%;
+  height: 100%;
+  transition: transform 2s;
+
+}
+.contain .boxx:hover .imgBox img{
+  max-width: 100%;
+  transform: scale(1.2);
+  
+}
+.contain .boxx .details{
+  max-width: 100%;
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  background:rgba(255, 0, 0, 0.8);
+}
+.contain .boxx .details .content{
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+
+}
+
+.textWithBlurredBg{
+  max-width: 100%;
+  top: 500px;
+  left: 90px;
+  width:250px;
+  height:350px;
+  display:inline-block;
+  position:relative;
+  transition:.3s;
+  margin:4px;
+}
+
+.textWithBlurredBg img{
+  max-width: 100%;
+  width:100%;
+  height:100%;
+  transition:.3s;
+  border-radius:4px;
+}
+
+.textWithBlurredBg:hover img{
+  max-width: 100%;
+  filter:blur(2px) brightness(60%);
+  box-shadow:0 0 16px cyan;
+}
+ 
+.textWithBlurredBg :not(img){
+  max-width: 100%;
+  position:absolute;
+  z-index:1;
+  top:30%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  opacity:0;
+  transition:.3s;
+}
+.textWithBlurredBg h2{
+  max-width: 100%;
+  top:0%
+}
+.textWithBlurredBg h3{
+  max-width: 100%;
+  font-size: 10px;
+}
+.textWithBlurredBg h4{
+  max-width: 100%;
+  position: absolute;
+  top: 200px;
+}
+.textWithBlurredBg:hover :not(img){
+  opacity:1;
+}
+/* Showcase */
+#showcase{
+  max-width: 100%;
+  min-height:400px;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase .container .inicio , p1{
+  max-width: 100%;
+  color: #000000;
+  font: 20px/1.5 'Lobster', cursive;
+}
+#showcase h1{
+  max-width: 100%;
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#boxes{
+  max-width: 100%;
+  margin-top:20px;
+}
+
+#boxes .box{
+  max-width: 100%;
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+#boxes .box h3, .box p{
+  max-width: 100%;
+  font-size: 20px;
+  font-style: italic;
+  background: linear-gradient(gold, green);
+  color: black;
+}
+#boxes .box img{
+  max-width: 100%;
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  max-width: 100%;
+  position: absolute;
+  left: 20px;
+  float:left;
+  width:95%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  max-width: 100%;
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  max-width: 100%;
+  float:left;
+  width:65%;
+}
+
+head h1{
+  max-width: 100%;
+  position: relative;
+  background: #000000;
+}
+
+#sob .container
+{
+  max-width: 100%;
+  padding:10px;
+  position: relative;
+  top: 600px;
+  width: 1500px;
+  color:#ffffff;
+  background-color:rgba(255,215,0,.6);
+  text-align: center;
+} 
+
+#obj .container{
+  max-width: 100%;
+  padding:10px;
+  position: relative;
+  top: 600px;
+  width: 1500px;
+  color:#ffffff;
+  background-color:rgba(255,215,0,.6);
+  text-align: center;
+} 
+#ini .container{
+  max-width: 100%;
+  padding:10px;
+  position: relative;
+  top: auto;
+  width: auto;
+  color:#ffffff;
+  background-color:rgba(255,215,0,.6);
+  text-align: center;
+} 
+
+/* Media Queries */
+@media screen and (max-width: 1060px) {
+
+  #primary { width:67%; }
+
+  #secondary { width:30%; margin-left:3%;}  
+
+}
+
+/* Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+
+  body { width:100%; }
+
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+    margin:0; 
+    border:none;
+  } 
+
+}
+@media(max-width: 768px){
+  header #branding,
+  header #logo,
+  header nav,
+  header nav li,
+  section .sidebar,
+  section .mapouter,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    max-width: 100%;
+    padding-bottom:30px;
+  }
+
+  #showcase h1{
+    max-width: 100%;
+    margin-top:40px;
+  }
+
+  
+
+ 
+}
